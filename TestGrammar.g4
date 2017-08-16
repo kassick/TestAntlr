@@ -10,5 +10,4 @@ slist : NAME
 NAME: [a-zA-Z]+;
 LPAREN : '(' ;
 RPAREN : ')' ;
-NONONO : 'nonono';
 WS: (' ' | '\t' | '\n' ) -> skip;

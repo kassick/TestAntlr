@@ -1,4 +1,5 @@
 // Generated from C:/Users/rodrigo_kassick/IdeaProjects/Test1\TestGrammar.g4 by ANTLR 4.7
+package uni.ritter;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -16,7 +17,7 @@ public class TestGrammarParser extends Parser {
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
-		NAME=1, LPAREN=2, RPAREN=3;
+		NAME=1, LPAREN=2, RPAREN=3, WS=4;
 	public static final int
 		RULE_sexpr = 0, RULE_slist = 1;
 	public static final String[] ruleNames = {
@@ -27,7 +28,7 @@ public class TestGrammarParser extends Parser {
 		null, null, "'('", "')'"
 	};
 	private static final String[] _SYMBOLIC_NAMES = {
-		null, "NAME", "LPAREN", "RPAREN"
+		null, "NAME", "LPAREN", "RPAREN", "WS"
 	};
 	public static final Vocabulary VOCABULARY = new VocabularyImpl(_LITERAL_NAMES, _SYMBOLIC_NAMES);
 
@@ -202,7 +203,7 @@ public class TestGrammarParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\5\23\4\2\t\2\4\3"+
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\6\23\4\2\t\2\4\3"+
 		"\t\3\3\2\3\2\3\2\3\2\3\2\3\3\3\3\3\3\3\3\3\3\5\3\21\n\3\3\3\2\2\4\2\4"+
 		"\2\2\2\22\2\6\3\2\2\2\4\20\3\2\2\2\6\7\7\4\2\2\7\b\7\3\2\2\b\t\5\4\3\2"+
 		"\t\n\7\5\2\2\n\3\3\2\2\2\13\21\7\3\2\2\f\r\5\2\2\2\r\16\5\4\3\2\16\21"+

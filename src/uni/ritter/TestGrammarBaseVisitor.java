@@ -1,4 +1,5 @@
 // Generated from C:/Users/rodrigo_kassick/IdeaProjects/Test1\TestGrammar.g4 by ANTLR 4.7
+package uni.ritter;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
